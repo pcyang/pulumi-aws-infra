@@ -1,5 +1,3 @@
-version: "3.8"
-
 services:
   pulumi-aws-infra:
     build:
@@ -13,6 +11,15 @@ services:
       # in a sub-folder, so you will mount '..'. You would then reference this path as the
       # 'workspaceFolder' in '.devcontainer/devcontainer.json' so VS Code starts here.
       - .:/workspace:cached
-      - projectname-bashhistory:/commandhistory
+      - pulumi-aws-infra-bashhistory:/commandhistory
+      # Mount the host's .aws directory to the container's .aws directory
+      - ~/.aws:/home/vscode/.aws:ro
+    env_file:
+      - path: .devcontainer/devcontainer.env
+        required: true
+      - path: .devcontainer/personal.env
+        required: false
 volumes:
-  projectname-bashhistory:
+  pulumi-aws-infra-bashhistory:
+
+

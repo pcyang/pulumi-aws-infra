@@ -1,0 +1,12 @@
+---
+region: us-west-2
+static_website_config:
+  name: example-static-website
+  path: ./www
+  index_document: index.html
+  error_document: error.html
+  cdn_config:
+    default_ttl: 1800
+    max_ttl: 1800
+    min_ttl: 1800
+    origin_path: /www

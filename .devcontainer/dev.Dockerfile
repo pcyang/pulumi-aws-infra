@@ -36,5 +36,3 @@ RUN SNIPPET="export PROMPT_COMMAND='history -a' && export HISTFILE=/commandhisto
 
 USER $USERNAME
 WORKDIR /workspace
-# Run pulumi as local mode
-RUN pulumi login --local

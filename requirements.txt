@@ -1,3 +1,7 @@
-pulumi
-typing-extensions
+himl
+pulumi-aws>=7.0.0,<8.0.0
+pulumi-synced-folder>=0.0.0,<1.0.0
+pulumi>=3.0.0,<4.0.0
+pydantic
 ruff
+typing-extensions

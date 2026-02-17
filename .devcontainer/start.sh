@@ -1,0 +1,1 @@
+pulumi login "$PULUMI_STATE_BUCKET"
