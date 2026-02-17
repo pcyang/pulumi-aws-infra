@@ -1,0 +1,8 @@
+name: example-static-website
+description: A Python program to deploy a static website on AWS
+runtime:
+  name: python
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: static-website-aws-python
