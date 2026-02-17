@@ -1,0 +1,31 @@
+# Third-Party Licenses
+
+This project includes third-party software licensed under the following terms:
+
+## HIML
+- **License**: MIT
+- **Repository**: https://github.com/ssube/himl
+
+## Typing Extensions
+- **License**: Python Software Foundation License
+- **Repository**: https://github.com/python/typing_extensions
+
+## pulumi-aws
+- **License**: Apache 2.0
+- **Repository**: https://github.com/pulumi/pulumi-aws
+
+## pulumi-synced-folder
+- **License**: Apache 2.0
+- **Repository**: https://github.com/pulumi/pulumi-synced-folder
+
+## pulumi
+- **License**: Apache 2.0
+- **Repository**: https://github.com/pulumi/pulumi
+
+## pydantic
+- **License**: MIT
+- **Repository**: https://github.com/pydantic/pydantic
+
+## ruff
+- **License**: MIT
+- **Repository**: https://github.com/astral-sh/ruff
